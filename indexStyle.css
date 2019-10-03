@@ -11,3 +11,22 @@ font-size: 24px;
 top: 6vh;
 right: 5%;
 }
+#logo{
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    top: 4vh;
+}
+.questionAndAnswer{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+#next{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    border: none;
+    width: 7%;
+    border-radius: 10px;
+}
