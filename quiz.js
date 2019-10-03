@@ -14,3 +14,10 @@ $(document).ready(function(){
         $('#next').click(function(){
             getNextQues(data);
         });
+        $('#submit').click(function(){
+            $('.exam-online').hide();
+            $('#result-div').show();
+            $('#next').hide();
+            $('#prev').hide();
+            $('#submit').hide();
+            for(let i=0;i<arr.length;i++){
