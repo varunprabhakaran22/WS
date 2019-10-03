@@ -64,3 +64,10 @@ $('#prev').click(function(){
         getNextQues();
     }   
 });
+$('.checkAnswer').click(function(){
+    var tempAns = $(this).index();
+    
+    arr.push(tempAns);
+    console.log(arr)
+     
+});
