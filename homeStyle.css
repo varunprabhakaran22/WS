@@ -13,3 +13,14 @@ body{
     top: 15vh;
     left: 40%;
 }
+.start{
+    position: relative;
+    top: 30vh;
+    background-color: white;
+    left: 38.5%;
+    height: 7%;
+    width: 20%;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
