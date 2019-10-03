@@ -95,3 +95,28 @@ right: 5%;
     padding-left: 10px;    
     
 }
+#option3:hover{
+    background-color:rgb(7, 161, 207);
+}
+#option4{
+    position: absolute;
+    height: 45%;
+    width: 125%;
+    top: 31vh;
+    background-color: aquamarine;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#option4:hover{
+    background-color:rgb(7, 161, 207);
+}
+#result-div {
+    display: none;
+}
+#yourScore{
+    position: relative;
+    top: 12vh;
+    left: 44.5%;
+    font-size: 30px;
+}
