@@ -24,3 +24,11 @@ body{
     border: none;
     cursor: pointer;
 }
+.start:hover{
+    background-color: aquamarine;
+}
+.logoImg{
+    position: relative;
+    top: 20vh;
+    left: 39%;
+}
