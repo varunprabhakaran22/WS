@@ -27,3 +27,10 @@ $(document).ready(function(){
                     console.log("hi");
                 }
             }
+            console.log(score);
+            document.getElementById('score').innerHTML = score;
+        });
+       
+    })
+})
+       // console.log(this.data[0].question);
