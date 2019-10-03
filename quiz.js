@@ -21,3 +21,9 @@ $(document).ready(function(){
             $('#prev').hide();
             $('#submit').hide();
             for(let i=0;i<arr.length;i++){
+                console.log("bye");
+                if(parseInt(data[i].answer)=== arr[i]){
+                    score+=1;
+                    console.log("hi");
+                }
+            }
