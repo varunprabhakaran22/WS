@@ -54,3 +54,13 @@ function getNextQues(data){
         }
     //}
 }
+// $('#next').click(function(){
+//     getNextQues(data);
+// });
+
+$('#prev').click(function(){
+    if(currentQuestion >= 1){
+        currentQuestion -= 2;
+        getNextQues();
+    }   
+});
