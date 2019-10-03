@@ -34,3 +34,23 @@ $(document).ready(function(){
     })
 })
        // console.log(this.data[0].question);
+       // console.log(testdata);
+
+
+function getNextQues(data){ 
+    //function(data){
+        
+        if(currentQuestion+1 < 10){
+            testdata=data;
+           // console.log(testdata);
+           //console.log(data[0].options[0])
+            currentQuestion += 1;
+            document.getElementById('ques-div').innerHTML = data[currentQuestion].question;   
+            document.getElementById('option1').innerHTML = data[currentQuestion].options[0];
+            document.getElementById('option2').innerHTML = data[currentQuestion].options[1];
+            document.getElementById('option3').innerHTML = data[currentQuestion].options[2];
+            document.getElementById('option4').innerHTML = data[currentQuestion].options[3];
+           // answer = data.questions[currentQuestion].answer;
+        }
+    //}
+}
