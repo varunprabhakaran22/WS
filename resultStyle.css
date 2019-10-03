@@ -3,6 +3,21 @@ body{
 }
 
 .soutLine{
-background-color: rgb(18, 31, 51);
-height: 17vh;
+    background-color: rgb(18, 31, 51);
+    height: 17vh;
+}
+
+#userName{
+    color: white;
+    font-size: 24px;
+    top: 6vh;
+    right: 5%;
+}
+
+#logo{
+    color: white; 
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    top: 4vh;
 }
