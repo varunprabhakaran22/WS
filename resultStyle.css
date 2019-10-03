@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+}
+
+.soutLine{
+    background-color: rgb(18, 31, 51);
+    height: 17vh;
+}
+
+#userName{
+    color: white;
+    font-size: 24px;
+    top: 6vh;
+    right: 5%;
+}
+
+#logo{
+    color: white; 
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    top: 4vh;
+}
+
+
+#name{
+    position: relative;
+    top: 10vh;
+    left: 45%;
+    font-size: 30px;
+}
+#yourScore{
+    position: relative;
+    top: 15vh;
+    left: 44.5%;
+    font-size: 30px;
+}
+.round{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(174, 216, 243);
+    border-radius: 50%;
+    position: relative;
+    top: 15vh;
+    left: 45%;
+    /* justify-content: center; */
+}
+#score{
+    font-size: 25px;
+    position: relative;
+    top: 38%;
+    left: 43%;
+}
+/* .medal{
+    position: relative;
+    top: 19vh;
+    left: 53%;
+    height: 60px;
+    width: 60px;
+} */
+#Diagnosis{
+    position: relative;
+    top: 20vh;
+    left: 41%;
+    width: 15%;
+    height: 5vh;
+    border-radius: 50px;
+    border:none;
+    background-color: rgb(159, 245, 245)
+}
