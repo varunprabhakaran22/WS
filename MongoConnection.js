@@ -10,4 +10,12 @@ client.connect(err => {
     console.log("connect");
     if (err)
     return console.log(err);
+    app.use(cors());
+    require('./rout')(app, col);
+    app.listen(port, () => {
+    console.log("Port 8100 running on browser...");
+    });
+    client.close()
+});
+
     
