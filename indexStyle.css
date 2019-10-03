@@ -30,3 +30,18 @@ right: 5%;
     width: 7%;
     border-radius: 10px;
 }
+#next:hover{
+    background-color:aquamarine;
+}
+#prev{
+    position: absolute;
+    top: 70%;
+    left: 19%;
+    border: none;
+    width: 7%;
+    border-radius: 10px;
+
+}
+#prev:hover{
+    background-color:aquamarine;
+}
